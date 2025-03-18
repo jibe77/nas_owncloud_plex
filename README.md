@@ -27,6 +27,7 @@ Un nom de domaine, dans mon cas j’en ai un dynamique fournit par noip.com (htt
 Installer Docker et Docker Compose : Assurez-vous que Docker et Docker Compose sont installés sur votre machine. Vous pouvez les installer en suivant les instructions officielles sur le site de Docker. Si ce n’est pas le cas :
 
 Mettre à jour le système :
+
 > sudo apt update && sudo apt upgrade -y
 
 Installer le repo de docker et docker-compose
@@ -540,7 +541,7 @@ Il faut surcharger l’URL :
 
 >  'overwrite.cli.url' => ‘http://my_domain.ddns.net/',
 
->  'overwritehost' => 'poulailler57.ddns.net',
+>  'overwritehost' => 'my_domain.ddns.net',
 >
 >  'overwriteprotocol' => 'https',
 >

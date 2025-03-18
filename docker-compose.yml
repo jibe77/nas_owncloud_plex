@@ -151,7 +151,7 @@ services:
     depends_on:
       - traefik
     healthcheck:
-      test: ["CMD", "mariadb-admin", "ping", "-u", "root", "--password=owncloud"]
+      test: ["CMD", "mariadb-admin", "ping", "-u", "root", "--password=my_password"]
       interval: 10s
       timeout: 5s
       retries: 5
