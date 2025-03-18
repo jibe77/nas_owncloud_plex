@@ -14,6 +14,8 @@ Let’s encrypt fournit un certificat dédié au chiffrement des données afin d
 
 Cette configuration se base sur Traefik comme reverse-proxy. Ce dernier s’intègre simplement avec docker pour exposer l’ensemble des services de façon dynamique. Cela facilite la configuration et le support de HTTPS via l’intégration de Let’s encrypt.
 
+[nas.drawio.png](nas.drawio.png)
+
 ## Prérequis : 
 
 Un raspberry Pi, idéalement le 5 afin d’avoir suffisamment de puissance notamment pour Plex
